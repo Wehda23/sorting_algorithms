@@ -29,10 +29,7 @@ void selection_sort(int *array, size_t size)
 	size_t index = 0;
 	int smallest = array[0], smallest_index = 0;
 	int change = 0;
-
-    if (array == NULL)
-        return;
-
+    
 	if (size > 2)
 	{
 		while (current < size)
