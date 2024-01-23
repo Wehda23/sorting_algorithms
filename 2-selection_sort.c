@@ -50,6 +50,7 @@ void selection_sort(int *array, size_t size)
                 /* Restate smallest_index and smallest value */
                 smallest_index = current;
                 smallest = array[current];
+                print_array(array, size);
             }
             else
                 index++;
