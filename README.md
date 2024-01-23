@@ -88,7 +88,7 @@ Function in file:
 1-insertion_sort_list.c
 ```
 
-Test File 2-main.c:
+Test File 1-main.c:
 
 ```c
 #include <stdio.h>
