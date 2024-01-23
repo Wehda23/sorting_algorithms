@@ -30,6 +30,12 @@
 
 ## Bubble Sort.
 
+Prototype in C Programming Language:
+
+```c
+void bubble_sort(int *array, size_t size);
+```
+
 ## Insertion Sort.
 
 ## Selection Sort.
