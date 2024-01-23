@@ -30,10 +30,16 @@
 
 ## Bubble Sort.
 
-Prototype in C Programming Language:
+Prototype in C Programming Language in sort.h:
 
 ```c
 void bubble_sort(int *array, size_t size);
+```
+
+Function in file:
+
+```bash
+0-bubble_sort.c
 ```
 
 Test File 0-main.c:
