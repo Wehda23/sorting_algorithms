@@ -3,6 +3,19 @@
 
 
 /**
+ * swap - function used to swap two values inside an array
+ * first: First integer value
+ * second: Second integer value
+ * Returns: Nothing.
+ */
+void swap(int *first, int *second)
+{
+    int temp = *first;
+    *first = *second;
+    *second = temp;
+}
+
+/**
  * bubble_sort - function that applies bubble sort algorithm.
  * array: Array to apply the algorithm on
  * size: size of the inserted array.

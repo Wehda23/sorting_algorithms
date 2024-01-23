@@ -16,11 +16,15 @@ typedef struct listint_s
 } listint_t;
 
 
+
 /* Print Functions */
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 
 /* 0-bubble_sort.c */
 void bubble_sort(int *array, size_t size);
+
+/* 2-selection_sort.c */
+void selection_sort(int *array, size_t size);
 
 #endif /* End of Sort.h file */
