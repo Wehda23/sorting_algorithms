@@ -30,4 +30,7 @@ void selection_sort(int *array, size_t size);
 /* 1-insertion_sort_list.c */
 void insertion_sort_list(listint_t **list);
 
+/* 3-quick_sort.c */
+void quick_sort(int *array, size_t size);
+
 #endif /* End of Sort.h file */
