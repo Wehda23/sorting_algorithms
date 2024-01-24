@@ -78,10 +78,5 @@ void quick_sort_helper(int *arr, size_t low, size_t high, size_t size)
  */
 void quick_sort(int *array, size_t size)
 {
-	if (array == NULL || size < 1)
-	{
-		return;
-	}
-
 	quick_sort_helper(array, 0, size - 1, size);
 }
