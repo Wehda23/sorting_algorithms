@@ -23,7 +23,7 @@ void swap(int *first, int *second)
  * @low: Lower size
  * @high: higher size
  * @size: size of the array
- * Returns: Nothing.
+ * Return: integer value
  */
 size_t partition(int *arr, size_t low, size_t high, size_t size)
 {
@@ -36,7 +36,7 @@ size_t partition(int *arr, size_t low, size_t high, size_t size)
 		{
 			i++;
 			swap(&arr[i], &arr[j]);
-            print_array(arr, size);
+			print_array(arr, size);
 		}
 	}
 
